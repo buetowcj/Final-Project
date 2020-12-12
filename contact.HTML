@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="code.js"></script>
+</head>
+<body>
+<header id="contact-header">
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">NES</a></li>
+        <li><a href="snes.html">SNES</a></li>
+        <li><a href="n64.html">N64</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<main><div id="contact-wrapper">
+    <h2 id="h2-contact">Contact Us</h2>
+    <h3>Your Contact Info</h3>
+    <form method="post" action="http://localhost:63342/Final%20Project/FinalProject/submit.html?_ijt=egaueb276snfvhp3jlgvglq72g">
+        <label for="myFName">*First Name:</label>
+        <input id="myFName" name="myFName" type="text" required>
+
+        <br> <br>
+
+        <label for="myLName">*Last Name:</label>
+        <input id="myLName" name="mLFName" type="text" required>
+
+        <br> <br>
+
+        <label for="myEmail">*E-Mail:</label>
+        <input id="myEmail" name="myEmail" type="email" size="30" required>
+
+        <br> <br>
+
+        <label for="myComments">*Comments:</label>
+        <textarea id="myComments" name="myComments" rows="3" cols="30" required></textarea>
+
+        <br> <br>
+
+        <input type="submit" value="Submit">
+
+    </form> <br>
+
+    <form>
+    <label for="first-name">First Name: </label>
+    <input id="first-name" name="name" type="text" required> <br> <br>
+
+    <label for="last-name">Last Name: </label>
+    <input id="last-name" name="name" type="text" required> <br> <br>
+
+    <label for="points-earned">Points Earned: </label>
+    <input id="points-earned" name="points" type="number" required> <br> <br>
+
+    <label for="points-possible">Points Possible: </label>
+    <input id="points-possible" name="points" type="number" required> <br> <br>
+
+    <button>Submit</button>
+    </form>
+
+
+    <table>
+        <tr>
+            <td id="firstNameOutput"></td>
+        </tr>
+        <tr>
+            <td id="lastNameOutput"></td>
+        </tr>
+        <tr>
+            <td id="gradeOutput"></td>
+        </tr>
+    </table>
+    </div>
+</main>
+</body>
+<footer id="contact-footer">Copyright &copy 2020 Final Project<br>
+    Created by Christopher Buetow</footer>
+</html>

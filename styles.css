@@ -1,0 +1,239 @@
+body {
+    background-color: black;
+    font-family: "Verdana", sans-serif;
+}
+
+form {
+    color: aliceblue;
+    text-align: center;
+}
+
+#contact-header {
+    background-color: red;
+    background-position: right;
+    height: 50px;
+}
+
+#contact-footer {
+    position: relative;
+}
+
+#snes-body {
+    background-color: #dad6fd;
+    font-family: "Verdana", sans-serif;
+}
+
+#n64-body {
+    background-color: #3b3b3b;
+    font-family: "Verdana", sans-serif;
+}
+
+#snes-h1 {
+    background-color: #331973;
+    background-position: right;
+    color: aliceblue;
+    height: 150px;
+}
+
+#n64-h1 {
+    background-color: black;
+    background-position: right;
+    color: aliceblue;
+    height: 150px;
+}
+
+#snes-history {
+    color: #331973;
+}
+
+#n64-history {
+    color: #069230;
+}
+
+#snes-games {
+    color: #331973;
+}
+
+#n64-games {
+    color: #fc2015;
+}
+
+#snes-console {
+    color: #331973;
+}
+
+#n64-reception {
+    color: #011da8;
+}
+
+#nes-header {
+    background-color: red;
+    background-position: right;
+    height: 150px;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+    float: left;
+    width: 190px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    border-style: outset;
+    border-width: 3px;
+    padding: 1em;
+    margin-bottom: 1em;
+
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a:link {
+    color: red;
+}
+
+#snes-nav a:link {
+    color: #331973;
+    border-color: #5c6ace;
+}
+
+#snes-nav a:visited {
+    color: #5c6ace;
+}
+
+#snes-nav a:hover {
+    color: aliceblue;
+    border-style: inset;
+    border-width: 3px;
+    background-color: #331973;
+    transition: 1ms;
+    border-color: lightgray;
+}
+
+#snes-nav a:visited {
+    color: #331973;
+    background-color: #5c6ace;
+    border-color: #5c6ace;
+}
+
+
+#n64-nav a:link {
+    color: aliceblue;
+    border-color: aliceblue;
+    background-color: black;
+}
+
+#n64-nav a:hover {
+    color: aliceblue;
+    border-style: inset;
+    border-width: 3px;
+    background-color: black;
+    transition: 1ms;
+    border-color: lightgray;
+}
+
+#n64-nav a:visited {
+    color: lightgray;
+    background-color: black;
+    border-color: lightgray;
+}
+
+nav a:hover {
+    color: black;
+    border-style: inset;
+    border-width: 3px;
+    background-color: red;
+    transition: 1ms;
+    border-color: lightgray;
+}
+
+nav a:visited {
+    color: gray;
+    border-color: lightgray;
+    background-color: red;
+}
+
+#wrapper {
+    margin-left: 250px;
+    margin-right: 50px;
+}
+
+#contact-wrapper {
+    margin-left: 250px;
+    margin-right: 50px;
+    overflow: auto;
+    padding-bottom: 400px;
+}
+
+h2 {
+    color: darkgray;
+}
+
+#h2-contact {
+    text-align: center;
+}
+
+p {
+    color: gray;
+    font-family: "Monaco", sans-serif;
+}
+
+#snes-p1 {
+    color: #331973;
+    font-family: "Monaco", sans-serif;
+}
+
+#snes-p2 {
+    color: #331973;
+    font-family: "Monaco", sans-serif;
+}
+
+#snes-p3 {
+    color: #331973;
+    font-family: "Monaco", sans-serif;
+}
+
+#n64-p1 {
+    color: aliceblue;
+    font-family: "Monaco", sans-serif;
+}
+
+#n64-p2 {
+    color: aliceblue;
+    font-family: "Monaco", sans-serif;
+}
+
+#n64-p3 {
+    color: aliceblue;
+    font-family: "Monaco", sans-serif;
+}
+
+footer {
+    color: darkgray;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    width: 100%;
+}
+
+#contact-footer {
+    color: darkgray;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    width: 100%;
+}
